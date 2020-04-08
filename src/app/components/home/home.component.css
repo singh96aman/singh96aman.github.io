@@ -1,0 +1,9 @@
+.hover-year{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.hover-year :hover{
+  color: red;
+}

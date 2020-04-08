@@ -2491,6 +2491,12 @@ h3 {
   font-weight: 400;
 }
 
+.download_area .progress_skills .single_progress .label span :hover {
+  font-size: 16px;
+  color: red;
+  font-weight: 400;
+}
+
 /* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_download.scss */
 .download_area .progress_skills .single_progress .progress {
   height: 6px;

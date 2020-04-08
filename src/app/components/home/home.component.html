@@ -94,10 +94,10 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="download_left">
-                        <p>Graduated from Manipal Institute of Technology, I started coding from 6th standard on basic HTML code. After which I splurged into data structures and programming while accreting knowledge of multiple languages, full stack frameworks and open source. 
+                        <p>Graduated from Manipal Institute of Technology, I started coding from 6th grade on basic HTML code. After which I splurged into data structures and programming while accreting knowledge of multiple languages, full stack frameworks and open source. 
                         </p>
-                        <p>I find Machine Learning and Finance equally interesting. Apart from this, People say I am ambivert and funny. You probably now my spirit animal by now.</p>
-                        <p>I want to create quality software solution to bridge the gap between pedestrians, artists, scientists and children.</p>
+                        <p>I find Machine Learning and Finance equally interesting. Apart from this, people say I am ambivert and funny. You probably know my spirit animal by now.</p>
+                        <p>I want to create quality software solutions to bridge the gap between pedestrians, artists, scientists and children.</p>
                         <a href="https://drive.google.com/open?id=1JvLCX44KYLXEwpRvevit_3fA0IkxTAJd" class="boxed-btn3-line">Download CV</a>
                     </div>
                 </div>
@@ -106,47 +106,65 @@
                         <div class="single_progress">
                             <div class="label d-flex justify-content-between">
                                 <span>Java</span>
-                                <span>90%</span>
+                                <span>{{ProgressValues[0]}}%</span>
                             </div>
                                 <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div id="JavaProgressBar" class="progress-bar " role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                         </div>
                         <div class="single_progress">
                                 <div class="label d-flex justify-content-between">
                                     <span>Python</span>
-                                    <span>75%</span>
+                                    <span>{{ProgressValues[1]}}%</span>
                                 </div>
                                 <div class="progress">
-                                    <div class="progress-bar " role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div id="PythonProgressBar" class="progress-bar " role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                         </div>
                         <div class="single_progress">
                                 <div class="label d-flex justify-content-between">
                                         <span>Angular</span>
-                                        <span>65%</span>
+                                        <span>{{ProgressValues[2]}}%</span>
                                     </div>
                                 <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div id="AngularProgressBar" class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                       </div>
                         </div>
                         <div class="single_progress">
                             <div class="label d-flex justify-content-between">
                                     <span>Machine Learning</span>
-                                    <span>55%</span>
+                                    <span>{{ProgressValues[3]}}%</span>
                                 </div>
                             <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div id="MLProgressBar" class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                   </div>
                         </div>
                         <div class="single_progress">
                             <div class="label d-flex justify-content-between">
                                     <span>Data Structures & Algorithms</span>
-                                    <span>80%</span>
+                                    <span>{{ProgressValues[4]}}%</span>
                                 </div>
                             <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div id="DSAlgoProgressBar" class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                   </div>
+                        </div>
+                        <div class="single_progress">
+                            <div class="hover-year">
+                                    <br/>
+                                    <div class="label d-flex justify-content-between">
+                                        <span style="color: rgb(241, 44, 44)">Click on the year to see Growth</span>
+                                        <span>{{ProgressValues[5]}}%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div id="TotalProgressBar" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <br/>
+                                    <span (click)="changeProgressForYear(2016)">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    <span (click)="changeProgressForYear(2017)">  2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    <span (click)="changeProgressForYear(2018)">  2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    <span (click)="changeProgressForYear(2019)">  2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    <span (click)="changeProgressForYear(2020)">  2020</span>
+                                </div>
                         </div>
                     </div>
                 </div>

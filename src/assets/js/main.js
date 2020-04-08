@@ -16,6 +16,7 @@ $(window).on('scroll', function () {
 
 
 
+
 $(document).ready(function(){
 
 // mobile_menu
@@ -410,8 +411,6 @@ $(document).ready(function() {
 		}
 	});
 });
-
-
 
 //------- Mailchimp js --------//  
 function mailChimp() {

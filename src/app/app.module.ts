@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { RouterModule, Routes } from '@angular/router';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 const appRoutes: Routes = [
 
@@ -19,8 +21,9 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    /*AppRoutingModule,*/
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    MatToolbarModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
