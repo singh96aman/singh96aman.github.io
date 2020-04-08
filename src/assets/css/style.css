@@ -2030,7 +2030,7 @@ h3 {
   background-repeat: no-repeat;
   position: relative;
   padding: 106px 0 120px 0;
-  background: #3B2930;
+  background: rgb(29, 27, 189);
   overflow: hidden;
 }
 
@@ -2083,7 +2083,7 @@ h3 {
   font-weight: 400;
   margin-bottom: 5px;
   font-family: "Roboto", sans-serif;
-  color: rgb(22, 6, 252);
+  color: #fff;
 }
 
 /* line 50, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_testmonial.scss */
@@ -2514,7 +2514,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */
 .projects_details_area {
-  background: #311E25;
+  background: rgb(17, 1, 54);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_products_details.scss */

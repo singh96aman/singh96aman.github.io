@@ -23,6 +23,12 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
 
   }
+
+  navigateToWork(id:any){
+    let el = document.getElementById(id);
+    el.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+
   changeProgressForYear(year : any) {
     console.log('Let\'s work our magic')
     if(year==2016){
