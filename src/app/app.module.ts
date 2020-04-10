@@ -15,7 +15,7 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: '', component: HomeComponent },
   { path: 'works', component: WorksComponent },
-  { path: 'workdetails', component: WorksDetailsComponent}
+  { path: 'workdetails/:pagename', component: WorksDetailsComponent}
     ]
 
 @NgModule({
@@ -27,7 +27,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'}),
     MatToolbarModule,
     BrowserAnimationsModule
   ],
