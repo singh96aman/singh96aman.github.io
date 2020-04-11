@@ -8,14 +8,16 @@ import { RouterModule, Routes } from '@angular/router';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WorksComponent } from './components/works/works.component';
-import { WorksDetailsComponent } from './components/works-details/works-details.component'
+import { WorksDetailsComponent } from './components/works-details/works-details.component';
+import { BlogComponent } from './components/blog/blog.component'
 
 const appRoutes: Routes = [
 
   { path: 'home', component: HomeComponent },
   { path: '', component: HomeComponent },
   { path: 'works', component: WorksComponent },
-  { path: 'workdetails/:pagename', component: WorksDetailsComponent}
+  { path: 'workdetails/:pagename', component: WorksDetailsComponent},
+  { path: 'blog/:blogname', component : BlogComponent }
     ]
 
 @NgModule({
@@ -23,7 +25,8 @@ const appRoutes: Routes = [
     AppComponent,
     HomeComponent,
     WorksComponent,
-    WorksDetailsComponent
+    WorksDetailsComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
