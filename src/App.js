@@ -36,7 +36,6 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
         </Switch>
-        <Footer />
       </div>
     </Router>
   );
