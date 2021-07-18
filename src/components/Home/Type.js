@@ -7,10 +7,11 @@ function Type() {
       options={{
         strings: [
           "Machine Learning Engineer",
+          "Software Developer Engineer",
         ],
         autoStart: true,
         loop: true,
-        pauseFor: 10000000,
+        pauseFor: 1000,
         cursor: '',
       }}
     />
