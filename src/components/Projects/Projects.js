@@ -3,12 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import liver from "../../Assets/Projects/liver.jpeg";
+import race from "../../Assets/Projects/race.png";
+import gsoc from "../../Assets/Projects/gsoc.png";
+import allcancer from "../../Assets/Projects/allcancer.jpeg";
+import stockmarket from "../../Assets/Projects/stockmarket.png";
+import foodwastage from "../../Assets/Projects/foodwastage.jpeg";
 
 function Projects() {
   return (
@@ -21,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={gsoc}
               isBlog={true}
               title="GSoC | CERN-HSF"
               description="AWAKE in CERN is working on compressing size of LHC from 27km to mere 6-8km. 
@@ -32,52 +34,51 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={stockmarket}
               isBlog={false}
               title="Market Watch"
               description="This project was built in the company of Mr. Pranjal where we sought out to develop an SVM model on historical data of top 30 BSE and top 50 NSE companies in the pursuit to accurately predict the movement of stocks."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              link="https://github.com/singh96aman/MarketWatchBETA"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={allcancer}
               isBlog={true}
               title="Treatment of ALL Cancer"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              description="As part of my summer internship at Indian Institute of Technology Kharagpur, I had to work with Mr. Tushar Mungle and Professor Jayanta Mukhopadhyay in coalition with Tata Medical Center Kolkata, to create a pill reminding application for ALS patients as well as develop framework to mimic doctor's decision making."
+              link="https://github.com/singh96aman/IIT-Kharagpur-Workspace"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={race}
               isBlog={true}
               title="Analysis of Diversity in US"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Working on EE01 dataset to highlight minority gaps for different races, genders and ethnicities in the US"
               link="https://medium.com/nerd-for-tech/analyzing-diversity-in-the-us-eca0ed5edcbc"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={liver}
               isBlog={false}
               title="Effects of Alcohol on Liver"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              description="Using drinking patterns and historical data to predict the chances of a person developing a liver related disease."
+              link="https://github.com/singh96aman/Effects-of-alcohol-on-liver"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={foodwastage}
               isBlog={false}
               title="Prediction of Food Wastage using ANN"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              description="Using Manipal Cafeteria statistics to highlight the amount of food wasted using Aritifical Neural Networks"
+              link="https://github.com/singh96aman/Food_Wastage_Using_ANN"
             />
           </Col>
         </Row>

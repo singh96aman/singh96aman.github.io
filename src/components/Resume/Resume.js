@@ -4,13 +4,14 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/AmanSingh_Thakur_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const leetcode = "8.41/10";
-  const hackerrank = "8.41/10";;
+  const hackerrank = "Problem Solving Intermediate";
   const cgpa = "8.41/10";
+  const gate = "94% Percentile";
+  const acm = "4th position";
 
   return (
     <Container fluid className="resume-section">
@@ -28,16 +29,12 @@ function Resume() {
             <Resumecontent
               title="Goldman Sachs, Sr. Analyst"
               date="October 2020 - Present"
-              content={[
-                "Assembled the data from various social media platforms using Twitter"
-              ]}
+              content={[]}
             />
             <Resumecontent
               title="Morgan Stanley, Software Consultant"
               date="July 2019 - September 2020"
-              content={[
-                "Assembled the data from various social media platforms using Twitter"
-              ]}
+              content={[]}
             />
              <Resumecontent
               title="Google Summer of Code, CERN-HSF"
@@ -61,10 +58,9 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                `Current rank in Spoj ${leetcode}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                `Hackerrank - ${hackerrank}`,
+                `GATE 2019 - ${gate}`,
+                `ACM Code Jam 2017 - ${acm}`,
               ]}
             />
           </Col>
