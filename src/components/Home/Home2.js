@@ -16,41 +16,26 @@ function Home2() {
       <Container>
         <Row>
           <Col md={12} className="home-about-description">
-            <h1 style={{ fontSize: "2.5em" }}>
+          <h1 style={{ fontSize: "2.5em" }}>
               INTRODUCING MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            Hi, I am Aman! I love to add intelligence to inanimate objects through code.
+<br/><br/>
+I am a proud CS alum of Manipal Institute of Technology. During my tenure as a student, I have built various tools while collaborating with startups. For instance, I worked with CampusHaat to build an e-commerce platform and interned at Accolite to build a scheduler for randomizing drug tests. Additionally, I collaborated with faculty and peers to create stochastic models like predicting medical prescriptions for ALL cancer patients or predicting the direction of stock movement.
+<br/><br/>
+I believe that the future of software engineering is open-source, sustainable development, and inclusivity at the workplace. To that end, I have published several articles on these topics. As the ex-technical head of Linux Users Group Manipal, I conducted workshops to promulgate open-source initiatives and Linux OS. As fate would have it, I got an opportunity to work with CERN scientists as part of the GSoC program to release an open-source library, pyawake. The library would build meta-data indexes on top of large HDF files to help visualize series of images faster.
+<br/><br/>
+Currently, I work in the Risk division of Goldman Sachs as a Senior Engineer to build pipelines to accurately report the firm's liquidity to regulators. While my work lets me impact Wall Street, I dabble with R&D engineering at Goldman to work on projects involving machine learning and predictive analysis.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              Programming/Scripting/Software -
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple">Python, Java, C/C++, JavaScript, Bash, Spring, Flask, Angular, React, Git</b> 
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js ans Next.js</b>
-              </i>
+              Analytics Toolkit - <i><b className="purple">Spark,Pandas, SQL, Excel, NLTK, TensorFlow, Scikit-learn, R, AzureML, Tableau, Matplotlib</b></i>
             </p>
           </Col>
         </Row>
